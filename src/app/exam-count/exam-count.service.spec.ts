@@ -20,7 +20,7 @@ describe('ExamCountService', () => {
   it('should be return 8 count occurrences of a character', () => {
     const service: ExamCountService = TestBed.get(ExamCountService);
     const expected: number = 8;
-    const actual: number = service.countOccurrencesOf('To make it in this business, you either have to be first, best, or different.','t');
+    const actual: number = service.countOccurrencesOf('To make it in this business, you either have to be first, best, or different. - Loretta Lynn -','t');
     expect(expected).toEqual(actual);
   });
 
