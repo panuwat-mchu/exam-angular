@@ -1,6 +1,13 @@
 module.exports = {
   theme: {
-    extend: {}
+    extend: {
+      fontFamily: {
+        sans: [
+          'Merriweather',
+          'sans-serif',
+        ]
+      }
+    }
   },
   variants: {},
   plugins: []
