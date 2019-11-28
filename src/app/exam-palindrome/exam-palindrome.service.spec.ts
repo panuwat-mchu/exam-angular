@@ -11,61 +11,61 @@ describe('ExamPalindromeService', () => {
     expect(service).toBeTruthy();
   });
 
-  it('should 1 be palindrome', () => {
+  it('1 should return true', () => {
     const service: ExamPalindromeService = TestBed.get(ExamPalindromeService);
     const actual:boolean = service.isPalindrome(1);
     expect(true).toEqual(actual);
   });
 
-  it('should 20 be palindrome', () => {
+  it('20 should return false', () => {
     const service: ExamPalindromeService = TestBed.get(ExamPalindromeService);
     const actual:boolean = service.isPalindrome(20);
     expect(false).toEqual(actual);
   });
 
-  it('should 22 be palindrome', () => {
+  it('22 should return true', () => {
     const service: ExamPalindromeService = TestBed.get(ExamPalindromeService);
     const actual:boolean = service.isPalindrome(22);
     expect(true).toEqual(actual);
   });
 
-  it('should 0 be palindrome', () => {
+  it('0 should return true', () => {
     const service: ExamPalindromeService = TestBed.get(ExamPalindromeService);
     const actual:boolean = service.isPalindrome(0);
     expect(true).toEqual(actual);
   });
 
-  it('should 101 be palindrome', () => {
+  it('101 should return true', () => {
     const service: ExamPalindromeService = TestBed.get(ExamPalindromeService);
     const actual:boolean = service.isPalindrome(101);
     expect(true).toEqual(actual);
   });
 
-  it('should 102 be palindrome', () => {
+  it('102 should return false', () => {
     const service: ExamPalindromeService = TestBed.get(ExamPalindromeService);
     const actual:boolean = service.isPalindrome(102);
     expect(false).toEqual(actual);
   });
 
-  it('should 1221 be palindrome', () => {
+  it('1221 should return true', () => {
     const service: ExamPalindromeService = TestBed.get(ExamPalindromeService);
     const actual:boolean = service.isPalindrome(1221);
     expect(true).toEqual(actual);
   });
 
-  it('should 13321 be palindrome', () => {
+  it('13321 should return false', () => {
     const service: ExamPalindromeService = TestBed.get(ExamPalindromeService);
     const actual:boolean = service.isPalindrome(13321);
     expect(false).toEqual(actual);
   });
 
-  it('should 13331 be palindrome', () => {
+  it('13331 should return true', () => {
     const service: ExamPalindromeService = TestBed.get(ExamPalindromeService);
     const actual:boolean = service.isPalindrome(13331);
     expect(true).toEqual(actual);
   });
 
-  it('should 11 be palindrome', () => {
+  it('11 should return true', () => {
     const service: ExamPalindromeService = TestBed.get(ExamPalindromeService);
     const actual:boolean = service.isPalindrome(11);
     expect(true).toEqual(actual);
